@@ -6,7 +6,7 @@ let columnThree = document.querySelector('.three')
 let columnFour = document.querySelector('.four')
 
 
-for(let i = 1; i <= 9; i++){
+for(let i = 1; i <= 17; i++){
     let imgDiv = document.createElement('div');
     let divImage = document.createElement('img');
     divImage.setAttribute('src', `./images/${i}.jpg`)
@@ -19,7 +19,7 @@ for(let i = 1; i <= 9; i++){
     }else if (i < 13){
         columnThree.appendChild(imgDiv);
     }else{
-        columnThree.appendChild(imgDiv);
+        columnFour.appendChild(imgDiv);
     }    
 }
 

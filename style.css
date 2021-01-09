@@ -16,22 +16,22 @@ html{
 .container {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 25%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    width: 1200px;
-    height: 800px;   
+    width: 1500px;
+    height: 1200px;   
 }
 
 .canvas {
     position:absolute;
     left:0;
     top: 0;
-    transform: translate(-600px, -600px);
+    transform: translate(-100px, -100px);
     width:200%;
-    height: auto;
+    height: 200px;
     padding: 200px;
-    transition: 1.5s ease-out;
+    transition: ease-out;
     display: flex;
 }
 
@@ -45,7 +45,7 @@ html{
 img{
     width: 100%;
     padding: 1rem;
-    filter: grayscale();
+    /* filter: grayscale(); */
 }
 
 
