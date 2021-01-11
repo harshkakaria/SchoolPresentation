@@ -45,7 +45,7 @@ html{
 img{
     width: 100%;
     padding: 1rem;
-    /* filter: grayscale(); */
+    filter: grayscale();
 }
 
 
